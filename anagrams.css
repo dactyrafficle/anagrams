@@ -1,0 +1,82 @@
+html, body {
+ font-family: calibri;
+}
+.output {
+ border: 1px solid #ddd;
+ padding: 1vh;
+ display: inline-block;
+}
+.letter_block_a {
+ border: 1px solid #ddd;
+ padding: 0.25vh;
+ margin: 0.25vh;
+ font-size: 20px;
+ font-family: monospace;
+ display: inline-block;
+}
+.letter_block_b {
+ border: 1px solid #fff;
+ padding: 0.25vh;
+ margin: 0.25vh;
+ font-size: 20px;
+ font-family: monospace;
+ display: inline-block;
+}
+.applied {
+ background-color: ccddff;
+}
+.not_applied {
+ background-color: #fff0b3;
+}
+.not_original {
+ background-color: ff8080;
+}
+.delimiter {
+ background-color: #fff;
+ border: none;
+}
+.input_container {
+ display: inline-block;
+}
+.myinputs {
+ padding: 1vh;
+ display: inline-block;
+}
+.anagram_block {
+ border: 1px solid black;
+ margin: 1vh;
+ padding: 1vh;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.output_container {
+ display: inline-block;
+ padding: 1vh;
+}
+table {
+ border-collapse: collapse;
+}
+table td {
+ padding: 1vh;
+}
+
+#mybtn {
+ border-radius: none;
+ display: inline-block;
+ border: 1px solid #ccc;
+ background-color: #eee;
+ padding: 0.5vh;
+}
+
+#mybtn:hover {
+ cursor: pointer;
+ background-color: #ddd;
+}
